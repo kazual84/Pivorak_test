@@ -1,0 +1,5 @@
+<h1><%= @jorney.title %></h1>
+
+<%= link_to 'Edit jorney', edit_jorney_path(@jorney) %>
+
+<%= link_to 'Delete jorney', jorney_path(@jorney), method: :delete, data: {confirm: 'Are you sure?'} %>

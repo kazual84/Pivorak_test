@@ -1,0 +1,7 @@
+<h1>Jorneys</h1>
+
+
+
+<% @jorneys.each do |jorney| %>
+    <h2><%= link_to jorney.title, jorney_path(jorney) %></h2>
+<% end %>

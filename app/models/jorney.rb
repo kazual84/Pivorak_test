@@ -1,0 +1,2 @@
+class Jorney < ApplicationRecord
+end

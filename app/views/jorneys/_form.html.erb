@@ -1,0 +1,17 @@
+<%= form_for @jorney do |f| %>
+   <div class="form-control">
+     <%= f.label :title %>
+     <%= f.text_field :title %>
+   </div>
+   <div class="form-control">
+     <%= f.label :capacity %>
+     <%= f.number_field :capacity %>
+   </div>
+    <div class="form-control">
+     <%= f.label :start_datetime %>
+     <%= f.datetime_field :start_datetime %>
+   </div>
+    <div class="form-control">
+      <%= f.submit 'Save' %>
+    </div>
+<% end %>
